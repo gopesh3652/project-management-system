@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* sign in PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to bottom right, #2773a5, white, #2773a5);
+width: 100%;
+overflow:visible;
+}
+
+.outerBox {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #2773a5);
+}
+
+.innerBox {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    /* background-color: #ffffff73; */
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+.signupHeader h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signupHeader p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signupBody {
+    margin: 20px 0;
+}
+
+.signupBody p {
+    margin: 10px 0;
+}
+
+.signupBody p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signupBody p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc ;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signupBody p input[type = "submit"] {
+    background-color: #2773a5;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signupBody p input[type = "submit"]:hover {
+    background-color: #2773a5;
+}
+
+.signupFooter p {
+    color: #555;
+    text-align: center;
+}
+
+.signupFooter p a {
+    color: #2773a5;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff );
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 40px;
+}
+
+.c2 {
+    bottom: 200px;
+    right: 50px;
+}
+/* navbar */
+.option{
+    display: flex;
+    background-color: #2773a5;
+
+}
+.option  a{
+    list-style: none;
+    text-decoration: none;
+    /* background-color: #2773a5; */
+    color: white;
+    margin: 8px;
+    /* padding: 0px 2rem; */
+}
+.option li{
+    padding: 0px 8rem;
+}
+.option a:hover{
+    color: white    ;
+}
+/* main */
+.addproject{
+    padding-left: 15%;
+}
+
+center{
+    margin-top: 10px;
+}
+#btn-project [type = "button"]{
+    margin-left: 33%;
+    margin-right: 5%;
+}
+
+
+/* project list */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #2773a5;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  th,
+  td {
+    padding: 10px 15px;
+    vertical-align: middle;
+  }
+  thead {
+    background: #2773a5;
+    background: linear-gradient(#49708f, #293f50);
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  th:first-child {
+    border-top-left-radius: 5px;
+    text-align: left;
+  }
+  th:last-child {
+    border-top-right-radius: 5px;
+  }
+  tbody tr:nth-child(even) {
+    background: #f0f0f2;
+  }
+  td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+  }
+  td:first-child {
+    border-left: 1px solid #cecfd5;
+  }
+  .book-title {
+    color: #2773a5;
+    display: block;
+  }
+  .text-offset {
+    color: #2773a5;
+    font-size: 12px;
+  }
+  .item-stock{
+display: flex;
+  }
+
+  
+  .item-multiple {
+    display: block;
+  }
+
+  tfoot tr:last-child {
+    background: #f0f0f2;
+    color: #2773a5;
+    font-weight: bold;
+  }
+  tfoot tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  tfoot tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+  }
+    
+
+      .styled {
+        
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgb(2, 35, 182);
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    
+    .styled:hover {
+        background-color: rgb(2, 35, 182);
+    }
+    
+    .styled:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+    
+
+
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+      cursor: pointer;
+      transform: translate(20rem, 10px);
+  }
